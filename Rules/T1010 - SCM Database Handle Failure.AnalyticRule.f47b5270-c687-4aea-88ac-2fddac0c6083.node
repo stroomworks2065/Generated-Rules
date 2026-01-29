@@ -1,0 +1,4 @@
+name=T1010 - SCM Database Handle Failure
+path=Rules/Windows
+type=AnalyticRule
+uuid=f47b5270-c687-4aea-88ac-2fddac0c6083

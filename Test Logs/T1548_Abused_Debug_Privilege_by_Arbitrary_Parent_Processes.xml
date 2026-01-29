@@ -1,0 +1,9 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ParentImage">\winlogon.exe</Data>
+    <Data Name="User">C:\AUTHORI\test_file.log</Data>
+  </EventData>
+</Event>

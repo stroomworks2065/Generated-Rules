@@ -1,0 +1,9 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Initiated">true</Data>
+    <Data Name="Image">\finger.exe</Data>
+  </EventData>
+</Event>

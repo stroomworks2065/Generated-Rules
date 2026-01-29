@@ -1,0 +1,4 @@
+name=T1001_003 - ADSI-Cache File Creation By Uncommon Tool
+path=Rules/Windows
+type=AnalyticRule
+uuid=59d9b1e6-0f84-4572-a7d7-8056e516e601

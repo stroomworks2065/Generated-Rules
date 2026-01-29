@@ -1,0 +1,4 @@
+name=T1542_003 - Potential Ransomware or Unauthorized MBR Tampering Via Bcdedit.EXE
+path=Rules/Windows
+type=AnalyticRule
+uuid=c9936201-fed4-4057-82c6-b76bb32a0485

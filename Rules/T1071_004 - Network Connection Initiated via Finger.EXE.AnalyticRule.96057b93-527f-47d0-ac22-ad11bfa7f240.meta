@@ -1,0 +1,56 @@
+{
+  "analyticProcessType": "STREAMING",
+  "duplicateNotificationConfig": {
+    "chooseColumns": false,
+    "columnNames": [],
+    "rememberNotifications": false,
+    "suppressDuplicateNotifications": false
+  },
+  "errorFeed": {
+    "type": "Feed",
+    "uuid": "8b95697a-1827-4e67-b982-940f3d47634c",
+    "name": "RULE_ERRORS_FEED"
+  },
+  "includeRuleDocumentation": true,
+  "languageVersion": "STROOM_QL_VERSION_0_1",
+  "name": "T1071_004 - Network Connection Initiated via Finger.EXE",
+  "description": "Source Sigma rule author: Swachchhanda Shrawan Poudel (Nextron Systems)\n\nSource Sigma rule: net\\_connection\\_win\\_finger.yml",
+  "notifications": [
+    {
+      "destination": {
+        "type": "stream",
+        "destinationFeed": {
+          "type": "Feed",
+          "uuid": "f58bb9a9-1359-4077-9451-f977b2b862c3",
+          "name": "RULE_OUTPUT_FEED"
+        },
+        "useSourceFeedIfPossible": false
+      },
+      "destinationType": "STREAM",
+      "enabled": true,
+      "limitNotifications": false,
+      "maxNotifications": 1,
+      "resumeAfter": {
+        "time": 1,
+        "timeUnit": "DAYS"
+      },
+      "uuid": "9ed54c1d-6c2c-41e0-aae1-fe3a25c5f77c"
+    }
+  ],
+  "query": "from RULE_VIEW\nwhere (EventData.Initiated = 'true' and EventData.Image = '*\\\\\\\\finger.exe')\nselect *",
+  "rememberNotifications": false,
+  "suppressDuplicateNotifications": false,
+  "timeRange": {
+    "name": "All time",
+    "condition": "BETWEEN"
+  },
+  "uuid": "96057b93-527f-47d0-ac22-ad11bfa7f240",
+  "version": "c96e0000-dea0-4c3a-88cc-a107449521e1",
+  "type": "AnalyticRule",
+  "level": "high",
+  "status": "experimental",
+  "falsepositives": [
+    "Unlikely"
+  ],
+  "isGeneratedRule": true
+}

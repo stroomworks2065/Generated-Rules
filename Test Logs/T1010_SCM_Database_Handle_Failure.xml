@@ -1,0 +1,11 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>4656</EventID>
+  </System>
+  <EventData>
+    <Data Name="EventID">4656</Data>
+    <Data Name="ObjectType">SC_MANAGER OBJECT</Data>
+    <Data Name="ObjectName">ServicesActive</Data>
+    <Data Name="AccessMask">0xf003f</Data>
+  </EventData>
+</Event>

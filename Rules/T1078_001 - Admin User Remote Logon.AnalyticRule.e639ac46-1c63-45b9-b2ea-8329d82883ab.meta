@@ -1,0 +1,56 @@
+{
+  "analyticProcessType": "STREAMING",
+  "duplicateNotificationConfig": {
+    "chooseColumns": false,
+    "columnNames": [],
+    "rememberNotifications": false,
+    "suppressDuplicateNotifications": false
+  },
+  "errorFeed": {
+    "type": "Feed",
+    "uuid": "8b95697a-1827-4e67-b982-940f3d47634c",
+    "name": "RULE_ERRORS_FEED"
+  },
+  "includeRuleDocumentation": true,
+  "languageVersion": "STROOM_QL_VERSION_0_1",
+  "name": "T1078_001 - Admin User Remote Logon",
+  "description": "Source Sigma rule author: juju4\n\nSource Sigma rule: win\\_security\\_admin\\_rdp\\_login.yml",
+  "notifications": [
+    {
+      "destination": {
+        "type": "stream",
+        "destinationFeed": {
+          "type": "Feed",
+          "uuid": "f58bb9a9-1359-4077-9451-f977b2b862c3",
+          "name": "RULE_OUTPUT_FEED"
+        },
+        "useSourceFeedIfPossible": false
+      },
+      "destinationType": "STREAM",
+      "enabled": true,
+      "limitNotifications": false,
+      "maxNotifications": 1,
+      "resumeAfter": {
+        "time": 1,
+        "timeUnit": "DAYS"
+      },
+      "uuid": "9ed54c1d-6c2c-41e0-aae1-fe3a25c5f77c"
+    }
+  ],
+  "query": "from RULE_VIEW\nwhere (System.EventID in (\"4624\")) and (System.EventID = 4624 and EventData.LogonType = 10 and EventData.AuthenticationPackageName = 'Negotiate' and EventData.TargetUserName = '*Admin*')\nselect *",
+  "rememberNotifications": false,
+  "suppressDuplicateNotifications": false,
+  "timeRange": {
+    "name": "All time",
+    "condition": "BETWEEN"
+  },
+  "uuid": "e639ac46-1c63-45b9-b2ea-8329d82883ab",
+  "version": "c96e0000-dea0-4c3a-88cc-a107449521e1",
+  "type": "AnalyticRule",
+  "level": "low",
+  "status": "test",
+  "falsepositives": [
+    "Legitimate administrative activity."
+  ],
+  "isGeneratedRule": true
+}

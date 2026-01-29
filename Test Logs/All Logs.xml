@@ -1,0 +1,287 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="TargetFilename">C:\Users\User\AppData\Local\Microsoft\Windows\SchCache\stroomworks_test.sch</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>4656</EventID>
+  </System>
+  <EventData>
+    <Data Name="EventID">4656</Data>
+    <Data Name="ObjectType">SC_MANAGER OBJECT</Data>
+    <Data Name="ObjectName">ServicesActive</Data>
+    <Data Name="AccessMask">0xf003f</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">C:\Send-MailMessagestroomworks_test-Attachments\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">C:\[Windows.Input.Keyboard]::IsKeyDown([System.Windows.Input.Key]::\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Image">\wscript.exe</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">C:\Clear-History\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Initiated">true</Data>
+    <Data Name="Image">\finger.exe</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ContextInfo">C:\Compress-Archive -Pathstroomworks_test-DestinationPath $env:TEMP\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>4624</EventID>
+  </System>
+  <EventData>
+    <Data Name="EventID">4624</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="TargetUserName">Admin</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Initiated">true</Data>
+    <Data Name="DestinationHostname">.portmap.io</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ParentImage">\aspnet_compiler.exe</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Image">\outlook.exe</Data>
+    <Data Name="TargetFilename">C:\\AppData\Local\Microsoft\FORMS\IPM\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">C:\Get-AdDefaultDomainPasswordPolicy\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Image">\print.exe</Data>
+    <Data Name="CommandLine">C:\Users\User\AppData\print\/D\.exe</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Image">\msxsl.exe</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="TargetObject">C:\Users\User\AppData\Policies\Microsoft\Windows NT\SystemRestore\Microsoft\Windows NT\CurrentVersion\SystemRestore\stroomworks_testDisableConfig</Data>
+    <Data Name="Details">DWORD (0x00000001)</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1000</EventID>
+  </System>
+  <EventData>
+    <Data Name="Provider_Name">Application Error</Data>
+    <Data Name="EventID">1000</Data>
+    <Data Name="Data">C:\lsass.exe\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Product">SQLite</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Image">\bcdedit.exe</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ParentImage">\winlogon.exe</Data>
+    <Data Name="User">C:\AUTHORI\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="TargetFilename">C:\Users\User\AppData\ntds_capi_\ntds_legacy_\ntds_unknown_\stroomworks_test.cer</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Image">\KrbRelay.exe</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">C:\Add-DnsClientNrptRule\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>4663</EventID>
+  </System>
+  <EventData>
+    <Data Name="EventID">4663</Data>
+    <Data Name="ObjectServer">Security</Data>
+    <Data Name="ObjectType">File</Data>
+    <Data Name="ObjectName">\Device\CdRom</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>3008</EventID>
+  </System>
+  <EventData>
+    <Data Name="EventID">3008</Data>
+    <Data Name="QueryName">C:\.anonfiles.com\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="CommandLine">C:\Users\User\AppData\ tunnel \cleanup \-config \-connector-id </Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">C:\Users\User\AppData\Set-Service \DCLCWPDTSD\-SecurityDescriptorSddl \-sd </Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="CommandLine">C:\vssadmin list shadows\test_file.log</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="QueryName">www.ip.cn</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="CommandLine">C:\-m \test_file.log</Data>
+  </EventData>
+</Event>

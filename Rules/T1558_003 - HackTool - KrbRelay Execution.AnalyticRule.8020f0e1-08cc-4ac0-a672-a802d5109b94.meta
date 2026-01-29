@@ -1,0 +1,56 @@
+{
+  "analyticProcessType": "STREAMING",
+  "duplicateNotificationConfig": {
+    "chooseColumns": false,
+    "columnNames": [],
+    "rememberNotifications": false,
+    "suppressDuplicateNotifications": false
+  },
+  "errorFeed": {
+    "type": "Feed",
+    "uuid": "8b95697a-1827-4e67-b982-940f3d47634c",
+    "name": "RULE_ERRORS_FEED"
+  },
+  "includeRuleDocumentation": true,
+  "languageVersion": "STROOM_QL_VERSION_0_1",
+  "name": "T1558_003 - HackTool - KrbRelay Execution",
+  "description": "Source Sigma rule author: Florian Roth (Nextron Systems)\n\nSource Sigma rule: proc\\_creation\\_win\\_hktl\\_krbrelay.yml",
+  "notifications": [
+    {
+      "destination": {
+        "type": "stream",
+        "destinationFeed": {
+          "type": "Feed",
+          "uuid": "f58bb9a9-1359-4077-9451-f977b2b862c3",
+          "name": "RULE_OUTPUT_FEED"
+        },
+        "useSourceFeedIfPossible": false
+      },
+      "destinationType": "STREAM",
+      "enabled": true,
+      "limitNotifications": false,
+      "maxNotifications": 1,
+      "resumeAfter": {
+        "time": 1,
+        "timeUnit": "DAYS"
+      },
+      "uuid": "9ed54c1d-6c2c-41e0-aae1-fe3a25c5f77c"
+    }
+  ],
+  "query": "from RULE_VIEW\nwhere ((((EventData.Image = '*\\\\\\\\KrbRelay.exe') or (EventData.OriginalFileName = '*KrbRelay.exe*')) or ((EventData.CommandLine = '* -spn *' or EventData.CommandLine = '* -clsid *' or EventData.CommandLine = '* -rbcd *'))) or ((EventData.CommandLine = '*shadowcred*' or EventData.CommandLine = '*clsid*' or EventData.CommandLine = '*spn*'))) or ((EventData.CommandLine = '*spn *' or EventData.CommandLine = '*session *' or EventData.CommandLine = '*clsid *'))\nselect *",
+  "rememberNotifications": false,
+  "suppressDuplicateNotifications": false,
+  "timeRange": {
+    "name": "All time",
+    "condition": "BETWEEN"
+  },
+  "uuid": "8020f0e1-08cc-4ac0-a672-a802d5109b94",
+  "version": "c96e0000-dea0-4c3a-88cc-a107449521e1",
+  "type": "AnalyticRule",
+  "level": "high",
+  "status": "test",
+  "falsepositives": [
+    "Unlikely"
+  ],
+  "isGeneratedRule": true
+}

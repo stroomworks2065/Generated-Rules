@@ -1,0 +1,8 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="TargetFilename">C:\Users\User\AppData\Local\Microsoft\Windows\SchCache\stroomworks_test.sch</Data>
+  </EventData>
+</Event>

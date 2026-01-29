@@ -1,0 +1,11 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>4624</EventID>
+  </System>
+  <EventData>
+    <Data Name="EventID">4624</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="TargetUserName">Admin</Data>
+  </EventData>
+</Event>

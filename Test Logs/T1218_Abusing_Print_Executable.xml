@@ -1,0 +1,9 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="Image">\print.exe</Data>
+    <Data Name="CommandLine">C:\Users\User\AppData\print\/D\.exe</Data>
+  </EventData>
+</Event>

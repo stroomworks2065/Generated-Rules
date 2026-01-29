@@ -1,0 +1,11 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>4663</EventID>
+  </System>
+  <EventData>
+    <Data Name="EventID">4663</Data>
+    <Data Name="ObjectServer">Security</Data>
+    <Data Name="ObjectType">File</Data>
+    <Data Name="ObjectName">\Device\CdRom</Data>
+  </EventData>
+</Event>

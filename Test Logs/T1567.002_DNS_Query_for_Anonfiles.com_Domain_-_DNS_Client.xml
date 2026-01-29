@@ -1,0 +1,9 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>3008</EventID>
+  </System>
+  <EventData>
+    <Data Name="EventID">3008</Data>
+    <Data Name="QueryName">C:\.anonfiles.com\test_file.log</Data>
+  </EventData>
+</Event>

@@ -1,0 +1,4 @@
+name=T1565 - Powershell Add Name Resolution Policy Table Rule
+path=Rules/Windows
+type=AnalyticRule
+uuid=e599ddce-bc3b-4fa1-a5ee-065bd084af25

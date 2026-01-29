@@ -1,0 +1,4 @@
+name=T1590 - Suspicious DNS Query for IP Lookup Service APIs
+path=Rules/Windows
+type=AnalyticRule
+uuid=83bd4bb1-721f-4e97-b4a1-9c361ac4d3ed

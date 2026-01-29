@@ -1,0 +1,4 @@
+name=T1078_001 - Admin User Remote Logon
+path=Rules/Windows
+type=AnalyticRule
+uuid=e639ac46-1c63-45b9-b2ea-8329d82883ab

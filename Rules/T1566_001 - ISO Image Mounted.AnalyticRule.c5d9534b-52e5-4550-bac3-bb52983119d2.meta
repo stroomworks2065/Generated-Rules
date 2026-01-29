@@ -1,0 +1,56 @@
+{
+  "analyticProcessType": "STREAMING",
+  "duplicateNotificationConfig": {
+    "chooseColumns": false,
+    "columnNames": [],
+    "rememberNotifications": false,
+    "suppressDuplicateNotifications": false
+  },
+  "errorFeed": {
+    "type": "Feed",
+    "uuid": "8b95697a-1827-4e67-b982-940f3d47634c",
+    "name": "RULE_ERRORS_FEED"
+  },
+  "includeRuleDocumentation": true,
+  "languageVersion": "STROOM_QL_VERSION_0_1",
+  "name": "T1566_001 - ISO Image Mounted",
+  "description": "Source Sigma rule author: Syed Hasan (@syedhasan009)\n\nSource Sigma rule: win\\_security\\_iso\\_mount.yml",
+  "notifications": [
+    {
+      "destination": {
+        "type": "stream",
+        "destinationFeed": {
+          "type": "Feed",
+          "uuid": "f58bb9a9-1359-4077-9451-f977b2b862c3",
+          "name": "RULE_OUTPUT_FEED"
+        },
+        "useSourceFeedIfPossible": false
+      },
+      "destinationType": "STREAM",
+      "enabled": true,
+      "limitNotifications": false,
+      "maxNotifications": 1,
+      "resumeAfter": {
+        "time": 1,
+        "timeUnit": "DAYS"
+      },
+      "uuid": "9ed54c1d-6c2c-41e0-aae1-fe3a25c5f77c"
+    }
+  ],
+  "query": "from RULE_VIEW\nwhere (System.EventID in (\"4663\")) and (System.EventID = 4663 and EventData.ObjectServer = 'Security' and EventData.ObjectType = 'File' and EventData.ObjectName = '*\\\\\\\\Device\\\\\\\\CdRom*') and not ((EventData.ObjectName = '*\\\\\\\\Device\\\\\\\\CdRom0\\\\\\\\autorun.ico*' or EventData.ObjectName = '*\\\\\\\\Device\\\\\\\\CdRom0\\\\\\\\setup.exe*' or EventData.ObjectName = '*\\\\\\\\Device\\\\\\\\CdRom0\\\\\\\\setup64.exe*'))\nselect *",
+  "rememberNotifications": false,
+  "suppressDuplicateNotifications": false,
+  "timeRange": {
+    "name": "All time",
+    "condition": "BETWEEN"
+  },
+  "uuid": "c5d9534b-52e5-4550-bac3-bb52983119d2",
+  "version": "c96e0000-dea0-4c3a-88cc-a107449521e1",
+  "type": "AnalyticRule",
+  "level": "medium",
+  "status": "test",
+  "falsepositives": [
+    "Software installation ISO files"
+  ],
+  "isGeneratedRule": true
+}

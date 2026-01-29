@@ -1,0 +1,8 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="ScriptBlockText">C:\Users\User\AppData\Set-Service \DCLCWPDTSD\-SecurityDescriptorSddl \-sd </Data>
+  </EventData>
+</Event>

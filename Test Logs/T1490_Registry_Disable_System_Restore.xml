@@ -1,0 +1,9 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <EventID>1</EventID>
+  </System>
+  <EventData>
+    <Data Name="TargetObject">C:\Users\User\AppData\Policies\Microsoft\Windows NT\SystemRestore\Microsoft\Windows NT\CurrentVersion\SystemRestore\stroomworks_testDisableConfig</Data>
+    <Data Name="Details">DWORD (0x00000001)</Data>
+  </EventData>
+</Event>
