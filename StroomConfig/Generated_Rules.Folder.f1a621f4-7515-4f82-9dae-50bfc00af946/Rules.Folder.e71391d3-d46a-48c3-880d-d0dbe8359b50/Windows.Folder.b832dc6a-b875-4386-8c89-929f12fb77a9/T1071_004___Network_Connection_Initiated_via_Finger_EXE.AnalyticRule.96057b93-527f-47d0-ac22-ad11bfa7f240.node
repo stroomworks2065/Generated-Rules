@@ -1,0 +1,5 @@
+name=T1071_004 - Network Connection Initiated via Finger.EXE
+path=/Generated Rules/Rules/Windows/T1071_004 - Network Connection Initiated via Finger.EXE
+type=AnalyticRule
+uuid=96057b93-527f-47d0-ac22-ad11bfa7f240
+version=V2

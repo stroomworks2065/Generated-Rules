@@ -1,0 +1,5 @@
+name=T1048_003 - Potential Data Exfiltration Over SMTP Via Send-MailMessage Cmdlet
+path=/Generated Rules/Rules/Windows/T1048_003 - Potential Data Exfiltration Over SMTP Via Send-MailMessage Cmdlet
+type=AnalyticRule
+uuid=b0e6405e-3eaa-4c4e-8336-48aceb8a497d
+version=V2

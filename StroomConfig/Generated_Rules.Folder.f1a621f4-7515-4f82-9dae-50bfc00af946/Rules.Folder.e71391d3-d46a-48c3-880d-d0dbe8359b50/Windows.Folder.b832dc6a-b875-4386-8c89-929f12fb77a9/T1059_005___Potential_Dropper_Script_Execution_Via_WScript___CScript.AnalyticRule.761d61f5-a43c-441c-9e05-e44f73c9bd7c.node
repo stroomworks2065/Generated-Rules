@@ -1,0 +1,5 @@
+name=T1059_005 - Potential Dropper Script Execution Via WScript - CScript
+path=/Generated Rules/Rules/Windows/T1059_005 - Potential Dropper Script Execution Via WScript - CScript
+type=AnalyticRule
+uuid=761d61f5-a43c-441c-9e05-e44f73c9bd7c
+version=V2

@@ -1,0 +1,5 @@
+name=T1548 - Abused Debug Privilege by Arbitrary Parent Processes
+path=/Generated Rules/Rules/Windows/T1548 - Abused Debug Privilege by Arbitrary Parent Processes
+type=AnalyticRule
+uuid=8d4c12c1-78d5-48a3-b9a8-9bf3d7ad0028
+version=V2

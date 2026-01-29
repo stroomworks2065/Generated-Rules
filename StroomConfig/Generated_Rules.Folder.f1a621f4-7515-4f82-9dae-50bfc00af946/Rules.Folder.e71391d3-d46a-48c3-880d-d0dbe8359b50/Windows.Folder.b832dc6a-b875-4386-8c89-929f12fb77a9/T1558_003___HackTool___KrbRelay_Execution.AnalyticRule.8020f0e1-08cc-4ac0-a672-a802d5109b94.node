@@ -1,0 +1,5 @@
+name=T1558_003 - HackTool - KrbRelay Execution
+path=/Generated Rules/Rules/Windows/T1558_003 - HackTool - KrbRelay Execution
+type=AnalyticRule
+uuid=8020f0e1-08cc-4ac0-a672-a802d5109b94
+version=V2

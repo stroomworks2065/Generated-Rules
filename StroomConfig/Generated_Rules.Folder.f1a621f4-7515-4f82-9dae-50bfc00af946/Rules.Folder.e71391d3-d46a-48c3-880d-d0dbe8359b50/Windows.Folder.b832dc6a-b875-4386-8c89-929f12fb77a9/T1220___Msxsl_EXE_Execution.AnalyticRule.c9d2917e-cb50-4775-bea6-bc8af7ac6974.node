@@ -1,0 +1,5 @@
+name=T1220 - Msxsl.EXE Execution
+path=/Generated Rules/Rules/Windows/T1220 - Msxsl.EXE Execution
+type=AnalyticRule
+uuid=c9d2917e-cb50-4775-bea6-bc8af7ac6974
+version=V2

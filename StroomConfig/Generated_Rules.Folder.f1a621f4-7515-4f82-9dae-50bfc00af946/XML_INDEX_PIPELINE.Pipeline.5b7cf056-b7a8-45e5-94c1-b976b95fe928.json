@@ -1,0 +1,69 @@
+{
+  "elements" : {
+    "add" : [ {
+      "id" : "Source",
+      "type" : "Source"
+    }, {
+      "id" : "F10A6289-906F-4697-B589-BF62AF6884A6",
+      "type" : "XMLParser",
+      "name" : "XML Parser"
+    }, {
+      "id" : "C3E39E66-721B-4944-BB32-F18767E088FA",
+      "type" : "SplitFilter",
+      "name" : "Split Filter"
+    }, {
+      "id" : "0357D0B8-6C05-41AD-90E6-0A2F1EEA0FF8",
+      "type" : "IdEnrichmentFilter",
+      "name" : "Id Enrichment Filter"
+    }, {
+      "id" : "5CACA186-C490-4EE0-B2B1-7981ADAF6F84",
+      "type" : "XSLTFilter",
+      "name" : "XSLT Filter"
+    }, {
+      "id" : "87A4272D-DF6F-43F6-86A9-5D39F47CEC33",
+      "type" : "DynamicIndexingFilter",
+      "name" : "Dynamic Indexing Filter"
+    } ]
+  },
+  "properties" : {
+    "add" : [ {
+      "element" : "5CACA186-C490-4EE0-B2B1-7981ADAF6F84",
+      "name" : "xslt",
+      "value" : {
+        "entity" : {
+          "type" : "XSLT",
+          "uuid" : "196fef65-e8f9-481b-8a42-cc31c23e2474",
+          "name" : "ID_ENRICHMENT"
+        }
+      }
+    }, {
+      "element" : "87A4272D-DF6F-43F6-86A9-5D39F47CEC33",
+      "name" : "index",
+      "value" : {
+        "entity" : {
+          "type" : "Index",
+          "uuid" : "1d2dad12-2d8f-4e2a-b9b9-050e2b8c24ed",
+          "name" : "XML_INDEX"
+        }
+      }
+    } ]
+  },
+  "links" : {
+    "add" : [ {
+      "from" : "Source",
+      "to" : "F10A6289-906F-4697-B589-BF62AF6884A6"
+    }, {
+      "from" : "F10A6289-906F-4697-B589-BF62AF6884A6",
+      "to" : "C3E39E66-721B-4944-BB32-F18767E088FA"
+    }, {
+      "from" : "C3E39E66-721B-4944-BB32-F18767E088FA",
+      "to" : "0357D0B8-6C05-41AD-90E6-0A2F1EEA0FF8"
+    }, {
+      "from" : "0357D0B8-6C05-41AD-90E6-0A2F1EEA0FF8",
+      "to" : "5CACA186-C490-4EE0-B2B1-7981ADAF6F84"
+    }, {
+      "from" : "5CACA186-C490-4EE0-B2B1-7981ADAF6F84",
+      "to" : "87A4272D-DF6F-43F6-86A9-5D39F47CEC33"
+    } ]
+  }
+}

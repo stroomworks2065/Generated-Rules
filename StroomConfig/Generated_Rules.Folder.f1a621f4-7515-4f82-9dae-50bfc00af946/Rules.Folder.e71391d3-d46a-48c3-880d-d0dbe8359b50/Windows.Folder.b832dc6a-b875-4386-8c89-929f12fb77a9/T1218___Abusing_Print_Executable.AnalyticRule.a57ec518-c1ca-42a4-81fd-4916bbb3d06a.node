@@ -1,0 +1,5 @@
+name=T1218 - Abusing Print Executable
+path=/Generated Rules/Rules/Windows/T1218 - Abusing Print Executable
+type=AnalyticRule
+uuid=a57ec518-c1ca-42a4-81fd-4916bbb3d06a
+version=V2
