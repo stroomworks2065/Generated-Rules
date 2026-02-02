@@ -1,5 +1,0 @@
-name=T1555 - DPAPI Backup Keys And Certificate Export Activity IOC
-path=/Generated Rules/Rules/Windows/T1555 - DPAPI Backup Keys And Certificate Export Activity IOC
-type=AnalyticRule
-uuid=741a13e4-dcc0-4c53-8932-6f201c7d89b9
-version=V2

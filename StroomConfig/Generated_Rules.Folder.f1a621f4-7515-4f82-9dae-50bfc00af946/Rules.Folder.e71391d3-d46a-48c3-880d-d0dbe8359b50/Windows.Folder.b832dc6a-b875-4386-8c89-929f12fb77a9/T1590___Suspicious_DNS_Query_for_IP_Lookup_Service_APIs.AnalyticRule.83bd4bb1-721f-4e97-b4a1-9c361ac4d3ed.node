@@ -1,5 +1,0 @@
-name=T1590 - Suspicious DNS Query for IP Lookup Service APIs
-path=/Generated Rules/Rules/Windows/T1590 - Suspicious DNS Query for IP Lookup Service APIs
-type=AnalyticRule
-uuid=83bd4bb1-721f-4e97-b4a1-9c361ac4d3ed
-version=V2

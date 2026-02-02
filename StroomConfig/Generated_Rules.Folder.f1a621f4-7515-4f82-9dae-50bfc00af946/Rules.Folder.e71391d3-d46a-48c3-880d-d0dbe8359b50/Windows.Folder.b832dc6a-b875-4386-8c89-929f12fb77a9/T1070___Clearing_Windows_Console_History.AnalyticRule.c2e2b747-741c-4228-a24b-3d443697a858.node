@@ -1,5 +1,0 @@
-name=T1070 - Clearing Windows Console History
-path=/Generated Rules/Rules/Windows/T1070 - Clearing Windows Console History
-type=AnalyticRule
-uuid=c2e2b747-741c-4228-a24b-3d443697a858
-version=V2

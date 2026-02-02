@@ -1,5 +1,0 @@
-name=T1127 - Suspicious Child Process of AspNetCompiler
-path=/Generated Rules/Rules/Windows/T1127 - Suspicious Child Process of AspNetCompiler
-type=AnalyticRule
-uuid=747ee383-6fb0-490d-8e6e-4d67615c1ab3
-version=V2

@@ -1,5 +1,0 @@
-name=T1567_002 - DNS Query for Anonfiles.com Domain - DNS Client
-path=/Generated Rules/Rules/Windows/T1567_002 - DNS Query for Anonfiles.com Domain - DNS Client
-type=AnalyticRule
-uuid=b373dbf7-7c62-466c-b027-55997a3b900a
-version=V2

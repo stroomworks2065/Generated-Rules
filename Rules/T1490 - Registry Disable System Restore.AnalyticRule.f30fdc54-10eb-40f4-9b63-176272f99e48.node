@@ -1,4 +1,0 @@
-name=T1490 - Registry Disable System Restore
-path=Rules/Windows
-type=AnalyticRule
-uuid=f30fdc54-10eb-40f4-9b63-176272f99e48

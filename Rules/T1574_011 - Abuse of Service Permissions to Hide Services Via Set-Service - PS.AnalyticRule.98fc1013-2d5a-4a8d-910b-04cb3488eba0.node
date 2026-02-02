@@ -1,4 +1,0 @@
-name=T1574_011 - Abuse of Service Permissions to Hide Services Via Set-Service - PS
-path=Rules/Windows
-type=AnalyticRule
-uuid=98fc1013-2d5a-4a8d-910b-04cb3488eba0

@@ -1,5 +1,0 @@
-name=T1572 - Cloudflared Tunnel Connections Cleanup
-path=/Generated Rules/Rules/Windows/T1572 - Cloudflared Tunnel Connections Cleanup
-type=AnalyticRule
-uuid=b4028cbe-5129-4dbc-8f4c-d9d84ca65ec3
-version=V2

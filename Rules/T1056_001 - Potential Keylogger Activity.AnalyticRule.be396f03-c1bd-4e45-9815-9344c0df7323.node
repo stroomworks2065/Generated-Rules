@@ -1,4 +1,0 @@
-name=T1056_001 - Potential Keylogger Activity
-path=Rules/Windows
-type=AnalyticRule
-uuid=be396f03-c1bd-4e45-9815-9344c0df7323

@@ -1,5 +1,0 @@
-name=T1090_002 - Network Communication Initiated To Portmap.IO Domain
-path=/Generated Rules/Rules/Windows/T1090_002 - Network Communication Initiated To Portmap.IO Domain
-type=AnalyticRule
-uuid=b9f02bf7-93b2-4225-b801-6d4654279d3f
-version=V2

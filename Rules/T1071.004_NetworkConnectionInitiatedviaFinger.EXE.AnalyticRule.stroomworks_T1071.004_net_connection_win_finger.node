@@ -1,0 +1,4 @@
+name=T1071.004 - NetworkConnectionInitiatedviaFinger.EXE
+path=Rules/Windows
+type=AnalyticRule
+uuid=stroomworks_T1071.004_net_connection_win_finger
